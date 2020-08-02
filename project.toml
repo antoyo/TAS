@@ -1,0 +1,16 @@
+[project]
+name = "tas"
+version = "0.0.1"
+cflags = "-D_GNU_SOURCE"
+
+[dependencies.atstd]
+git = "git@framagit.org:antoyo/atstd.git"
+version = "0.0.1"
+
+[dependencies.clast]
+git = "git@framagit.org:antoyo/clast.git"
+version = "0.0.1"
+
+[dependencies.patsec]
+git = "git@framagit.org:antoyo/patsec.git"
+version = "0.0.2"
